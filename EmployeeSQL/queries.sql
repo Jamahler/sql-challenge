@@ -71,7 +71,7 @@ OR departments.dept_name = 'Development';
 
 SELECT 
 last_name,
-COUNT(last_name) AS "name_count"
+COUNT(last_name) 
 FROM employees
 GROUP BY last_name
 ORDER BY
